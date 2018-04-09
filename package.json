@@ -26,7 +26,8 @@
   "scripts": {
     "lint": "eslint lib vue-separate-jest.js test",
     "lint:fix": "npm run lint -- --fix",
-    "test": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage"
+    "unit": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage",
+    "test": "npm run lint && npm run unit"
   },
   "peerDependencies": {
     "vue-jest": "^2.4.1"
