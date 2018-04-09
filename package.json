@@ -24,6 +24,8 @@
     "url": "git+https://github.com/hong19/vue-separate-jest"
   },
   "scripts": {
+    "lint": "eslint lib vue-separate-jest.js test",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage"
   },
   "peerDependencies": {
@@ -36,6 +38,9 @@
     "babel-core": "^6.26.0",
     "babel-jest": "^22.4.3",
     "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.10.0",
     "jest": "^22.4.3",
     "node-sass": "^4.8.3",
     "pug": "^2.0.3",
