@@ -1,5 +1,5 @@
-const process = require('./lib/process')
+const process = require('./lib/process');
 
 module.exports = {
-  process: process
-}
+  process,
+};
