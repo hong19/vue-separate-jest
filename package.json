@@ -1,0 +1,46 @@
+{
+  "name": "vue-separate-jest",
+  "version": "0.0.1",
+  "description": "Jest Vue separate transform, bundles separate files(html, js, css) and compiles them",
+  "main": "vue-separate-jest.js",
+  "files": [
+    "vue-separate-jest.js",
+    "lib"
+  ],
+  "keywords": [
+    "jest",
+    "vue",
+    "jest vue",
+    "jest vue transform",
+    "separate",
+    "vue separate",
+    "split",
+    "vue split"
+  ],
+  "author": "Chih-Hung Chen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hong19/vue-separate-jest"
+  },
+  "scripts": {
+    "test": "jest test --no-cache --runInBand --coverage --coverageDirectory test/coverage"
+  },
+  "peerDependencies": {
+    "vue-jest": "^2.4.1"
+  },
+  "dependencies": {
+    "vue-jest": "^2.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.3",
+    "node-sass": "^4.8.3",
+    "pug": "^2.0.3",
+    "vue": "^2.5.16",
+    "vue-template-compiler": "^2.5.16",
+    "vue-test-utils": "^1.0.0-beta.11"
+  }
+}
